@@ -1,19 +1,11 @@
-body {
-    display: flex;
-    flex-direction: row;
 
-    justify-content: center;
-    align-items: flex-start;
-}
 div {
     border: 1px solid black;
     width: 49%;
-    
-    display: inline-block;
-    
+    display: inline-block; 
 }
 div:nth-of-type(-n+2) {
-    height: 400px;
+    height: 400px;  
 }
 div:last-child {
     background-color: cadetblue;
