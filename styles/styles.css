@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+div {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    
+}
+div:nth-of-type(-n+2) {
+    height: 400px;
+}
+div:last-child {
+    background-color: cadetblue;
+}
