@@ -3,7 +3,7 @@ div {
     border: 1px solid black;
     width: 49%;
     display: inline-block; 
-    height: 100px;
+    height: 200px;
 }
 div:nth-of-type(-n+2) {
     height: 400px;  
